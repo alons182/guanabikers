@@ -1,0 +1,318 @@
+@import "nib"
+@import "normalize.styl"
+@import "icons.styl"
+
+
+naranja = #bd4b01
+lima =  rgb(244, 255, 228)
+verde = #99CC66
+rojo = #EE4035
+cafe = #695C3E
+gris = #D3D3D3
+
+html
+body
+	width 100%
+	height 100%
+
+body
+	font-family Arial, sans-serif
+	font-size 16px
+	line-height 25px
+	background #000
+	color #FFF
+	overflow-y hidden
+	
+p 
+	margin 0 0 25px;
+a 
+	color naranja
+	text-decoration none
+	
+	
+h1 
+	margin-top 0
+	margin-bottom 10px
+	line-height 1.5em
+	font-family 'bebas_neueregular', Arial, sans-serif
+	font-size 3.5em
+	color naranja
+
+h2 
+	margin-top 0
+	margin-bottom 10px
+	line-height 1.5em
+	font-family 'bebas_neueregular', Arial, sans-serif
+	color naranja
+ul 
+	margin 0
+	padding 0
+
+.hidden
+	display none	
+.img 
+	border 1px solid #DBDBDB
+	border-radius 5px
+	padding .2em 
+	box-sizing border-box
+
+.btn
+	box-shadow none
+	text-decoration none
+	display inline-block
+	padding 16px 17px 15px 18px
+	font 16px 'Tinos'
+	color #ffffff
+	background #f5c34c
+	border none
+	letter-spacing 0
+	text-transform uppercase
+	text-shadow none
+	text-decoration none !important
+	border-radius 0
+	border-bottom 1px solid #f5c34c
+	transition all 0.35s ease
+	
+	&:hover
+		background none
+		color #FFF
+		background naranja
+
+.bg 
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-image: url('../img/bg2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+.bg-video
+	.custom
+		padding-bottom: 0;
+		width: 100vw
+		height: 56.25vw; 
+		max-height: 100vh;
+		max-width: 177.78vh;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	
+		&:after
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			display: block;
+			pointer-events: none;
+			content: "";
+			background-image: url('../img/texture.png');
+			background-repeat: repeat;
+			opacity: 0.2;
+		iframe
+			opacity: .3;
+			border 0
+			width 100%
+			height 100%
+
+.header
+	height 2em
+	border-bottom 1px solid gris
+	position fixed
+	left 0
+	right 0
+	top 0
+	background #000
+	z-index 10
+.btn-menu
+	float left
+	font-size 1.5em
+	padding 0.1em 0.4em
+	
+.languajes 
+	float left
+	margin-left 10px
+	font-size: .8em;
+.reservation
+	float right
+	margin-right 3em
+	margin-top 3px
+.btn-reservation
+	display block
+	
+	text-transform uppercase
+	color gris
+	&:hover
+		color naranja
+.languajes-item
+	color #FFF 
+	display inline-block
+	padding .2em
+	&:hover
+		color naranja
+.logo
+	position fixed
+	top 3.5em
+	left 2.5em
+
+
+.wrapper
+	position relative
+	min-height 100%
+.menu
+	position fixed
+	background: #000;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	display none
+	padding 40px 15px
+	li 
+		a 
+			color gris
+			font-size 3em
+			text-transform uppercase
+			display block
+			padding .3em
+			font-family 'bebas_neueregular', Arial, sans-serif
+			&:hover
+				color naranja
+.main 
+	position fixed
+	right 0
+	top 0
+	width 100%//55.50%
+	background #FFF
+	padding 3em 1em
+	height 97%
+	text-align right
+	color #000
+	box-sizing border-box
+	overflow-y scroll
+	box-sizing border-box
+.page-home
+	margin-top 12em
+	h1
+		font-size 4em
+	h3 
+		margin-top: -28px;
+		margin-bottom: 1em;
+ /*.bgid-107
+ 	.bg 
+		background-image: url('../img/bg1.jpg');
+ .bgid-108
+ 	.bg 
+		background-image: url('../img/bg2.jpg');*/
+
+.bgid-101
+	.main 
+		background none
+		color #FFF
+		overflow-y hidden
+	.bg 
+		background-image none
+.item-page
+	text-align left
+	h3
+	h1
+		text-align right
+	h1+h3
+		margin-top -28px
+		margin-bottom 1em
+	ul 
+		margin-left 3em
+		margin-bottom 1.5em
+
+
+.tours,
+.gallery,
+.videos
+	text-align center
+
+.videos
+	width 100% //500px
+
+	iframe
+		height 205px 
+	h1
+		text-align center
+	.expo
+		font-size 18px
+		position relative
+		top -30px		
+
+.tour,
+.gallery-item,
+.video
+	display inline-block
+	vertical-align top 
+	width 230px
+	margin .1em
+
+
+.gallery-itemTitle
+.tour-title
+	text-align center
+
+.tour-link
+.gallery-itemLink
+	display block
+
+	img 
+		width 100%
+		max-height 156px
+.patners
+	margin-top 40px
+	text-align center
+
+.footer
+	position fixed
+	bottom 0
+	left 0
+	right 0
+	height 2em
+	font-size 13px
+	background #000
+	color gris
+	
+	p 
+		margin 0
+
+.copyright
+	float left
+	margin-left 10px
+.redes
+	float right
+	margin-right 10px
+
+.b2jcontainer
+	padding 0 !important
+	background none !important
+	border none !important
+	text-align left
+	color #000 !important
+
+	h2
+		background none
+		color naranja
+		font-size 4em
+		margin 0
+		padding 0
+		font-weight bold
+		text-align right
+	.btn-success
+		background naranja !important
+.b2j-contact-group-class 
+	text-align right
+	
+@import "responsive.styl"
+
+
+
+				
