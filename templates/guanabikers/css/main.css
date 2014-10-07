@@ -81,7 +81,7 @@ ul{margin:0;padding:0}
 .languajes-item{color:#fff;display:inline-block;padding:.2em;}
 .languajes-item:hover{color:#bd4b01}
 .logo{position:fixed;top:3.5em;left:2.5em}
-.wrapper{position:relative;min-height:100%}
+.wrapper{position:relative;min-height:100%;width:130%}
 .menu{position:fixed;background:#000;left:0;right:0;z-index:2;display:none;padding:40px 15px;}
 .menu li a{color:#d3d3d3;font-size:3em;text-transform:uppercase;display:block;padding:.3em;font-family:'bebas_neueregular',Arial,sans-serif;}
 .menu li a:hover{color:#bd4b01}
