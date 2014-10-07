@@ -66,8 +66,9 @@ h2{margin-top:0;margin-bottom:10px;line-height:1.5em;font-family:'bebas_neueregu
 ul{margin:0;padding:0}
 .hidden{display:none}
 .img{border:1px solid #dbdbdb;-webkit-border-radius:5px;border-radius:5px;padding:.2em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.btn{-webkit-box-shadow:none;box-shadow:none;text-decoration:none;display:inline-block;padding:16px 17px 15px 18px;font:16px 'Tinos';color:#fff;background:#f5c34c;border:none;letter-spacing:0;text-transform:uppercase;text-shadow:none;text-decoration:none !important;-webkit-border-radius:0;border-radius:0;border-bottom:1px solid #f5c34c;-webkit-transition:all 0.35s ease;-moz-transition:all 0.35s ease;-o-transition:all 0.35s ease;-ms-transition:all 0.35s ease;transition:all 0.35s ease;}
+.btn{-webkit-box-shadow:none;box-shadow:none;text-decoration:none;display:inline-block;padding:16px 17px 15px 18px;font:16px 'Tinos';color:#fff;background:#f5c34c;border:none;letter-spacing:0;text-transform:uppercase;text-shadow:none;text-decoration:none !important;-webkit-border-radius:0;border-radius:0;-webkit-transition:all 0.35s ease;-moz-transition:all 0.35s ease;-o-transition:all 0.35s ease;-ms-transition:all 0.35s ease;transition:all 0.35s ease;}
 .btn:hover{background:none;color:#fff;background:#bd4b01}
+.btn-red{background:#910000}
 .bg{position:fixed;top:0;bottom:0;right:0;left:0;background-image:url("../img/bg2.jpg");-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-repeat:no-repeat;background-position:center center;background-attachment:fixed}
 .bg-video .custom{padding-bottom:0;width:100vw;height:56.25vw;max-height:100vh;max-width:177.78vh;margin:auto;position:absolute;top:0;bottom:0;left:0;right:0;}
 .bg-video .custom:after{position:absolute;top:0;left:0;right:0;bottom:0;display:block;pointer-events:none;content:"";background-image:url("../img/texture.png");background-repeat:repeat;opacity:.2;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";filter:alpha(opacity=20)}
