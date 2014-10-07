@@ -72,7 +72,7 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
         </section>
     </section>
     <footer class="footer">
-        <div class="copyright"><p>Guanacaste viajes © 2013</p></div>
+        <div class="copyright"><p>Guanabikers © 2014</p></div>
         <div class="redes"><a href="http://www.facebook.com/Guanabikers" target="_blank">Facebook</a> • <a href="http://twitter.com/#!/Guanabikers" target="_blank">Twitter</a> • <a href="http://youtube.com/user/Guanabikers/feed" target="_blank">Youtube</a> • <a href="http://www.tripadvisor.com.mx/Attraction_Review-g309240-d3179993-Reviews-Guanabikers_Private_Day_Tours-Liberia_Province_of_Guanacaste.html" target="_blank">Trip Advisor</a> • <a href="http://www.magcloud.com/browse/issue/389771" target="_blank">XXC Magazine</a>  </div>
     </footer>
         
