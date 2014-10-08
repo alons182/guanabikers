@@ -136,14 +136,26 @@ ul
 	float left
 	font-size 1.5em
 	padding 0.1em 0.4em
-	
+.btn-home
+	text-transform uppercase
+	font-size 3em
+	font-family 'bebas_neueregular', Arial, sans-serif
+	color gris
+	display block 
+	position fixed
+	top 65px
+	left 30px
+	z-index 4
+	&:hover
+		color naranja
+
 .languajes 
 	float left
 	margin-left 10px
 	font-size: .8em;
 .reservation
 	float right
-	margin-right 3em
+	margin-right 1em
 	margin-top 3px
 .btn-reservation
 	display block
@@ -175,7 +187,7 @@ ul
 	right: 0;
 	z-index: 2;
 	display none
-	padding 40px 15px
+	padding 50px 15px
 	li 
 		a 
 			color gris
@@ -242,7 +254,8 @@ ul
 	width 100% //500px
 
 	iframe
-		height 205px 
+		height 205px
+		border 0 
 	h1
 		text-align center
 	.expo
@@ -275,24 +288,25 @@ ul
 	text-align center
 
 .footer
-	position fixed
+	position absolute //fixed
 	bottom 0
 	left 0
 	right 0
-	height 2em
+	height auto//2em
 	font-size 13px
 	background #000
 	color gris
+	text-align center
 	
 	p 
 		margin 0
 
-.copyright
+/*.copyright
 	float left
-	margin-left 10px
-.redes
+	margin-left 10px*/
+/*.redes
 	float right
-	margin-right 10px
+	margin-right 10px*/
 
 .b2jcontainer
 	padding 0 !important

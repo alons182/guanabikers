@@ -64,6 +64,11 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/colorbox.css');
     <section class="wrapper">
         <a href="<?php echo $this->baseurl ?>" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Guanabikers"></a>
         <nav class="menu">
+            <?php if ($this->language == "es-es") : ?>
+                <a class="btn-home" href="<?php echo $this->baseurl ?>/es" class="languajes-item">Inicio</a>
+            <?php else : ?>
+                <a class="btn-home"  href="<?php echo $this->baseurl ?>/en" class="languajes-item">Home</a>
+            <?php endif; ?>   
             <jdoc:include type="modules" name="menu" style="none" />
         </nav>
         <section class="main">

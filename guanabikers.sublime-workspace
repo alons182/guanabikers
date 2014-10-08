@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"text-align"
+			],
+			[
 				"bor",
-				"border-box"
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"gal",
+				"gallery-itemTitle"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"t",
+				"text-align"
 			],
 			[
 				"tex",
@@ -18,14 +46,6 @@
 			[
 				"bar",
 				"background-image"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
-				"te",
-				"text-transform"
 			],
 			[
 				"pa",
@@ -42,10 +62,6 @@
 			[
 				"wi",
 				"width"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"ser",
@@ -78,10 +94,6 @@
 			[
 				"gr",
 				"gris"
-			],
-			[
-				"ma",
-				"margin-right"
 			],
 			[
 				"margi",
@@ -502,18 +514,6 @@
 			[
 				"ic",
 				"icon-users"
-			],
-			[
-				"s",
-				"span"
-			],
-			[
-				"res",
-				"resize	.resize"
-			],
-			[
-				"h",
-				"hidden"
 			]
 		]
 	},
@@ -688,24 +688,25 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/responsive.styl",
+		"/C/xampp/htdocs/guanabikers/templates/guanabikers/js/main.js",
+		"/C/xampp/htdocs/guanabikers/templates/guanabikers/index.php",
+		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/main.styl",
+		"/D/Documents/dumps/guanabikers.sql",
+		"/C/xampp/htdocs/guanabikers/README.txt",
+		"/C/xampp/htdocs/guanabikers/components/com_contact/metadata.xml",
 		"/D/Documents/dumps/dbpos.sql",
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/templateDetails.xml",
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/icons.styl",
 		"/D/Downloads/guanabikers/style.css",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/js/main.js",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/responsive.styl",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/index.php",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/main.styl",
 		"/C/xampp/htdocs/guanabikers/templates/beez3/javascript/respond.js",
 		"/C/xampp/htdocs/guanabikers/media/jui/less/responsive.less",
 		"/C/xampp/htdocs/guanabikers/libraries/legacy/response/response.php",
 		"/C/xampp/htdocs/guanabikers/libraries/joomla/http/response.php",
 		"/C/xampp/htdocs/guanabikers/administrator/components/com_joomlaupdate/restore.php",
-		"/C/xampp/htdocs/guanabikers/README.txt",
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/css/main.css",
 		"/C/xampp/htdocs/guanabikers/components/com_mailto/mailto.php",
 		"/C/xampp/htdocs/guanabikers/modules/mod_articles_archive/mod_articles_archive.php",
-		"/C/xampp/htdocs/guanabikers/components/com_contact/metadata.xml",
 		"/D/Downloads/Compressed/webfontkit-20141003-171512/stylesheet.css",
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/favicon.ico",
 		"/D/Documents/dumps/guanacasteviajes.sql",
@@ -814,8 +815,7 @@
 		"/D/get_posts.php",
 		"/C/Users/Alonso/Desktop/index.html",
 		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Alonso/Desktop/index.php"
+		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
@@ -833,6 +833,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Full Aventura",
+			"tours/full-aventura",
 			"=\"#",
 			"=\"#\"",
 			"=\"#",
@@ -958,9 +960,7 @@
 			"shape",
 			"Shape",
 			"shape",
-			"Niños",
-			"niños",
-			"123"
+			"Niños"
 		],
 		"highlight": true,
 		"in_selection": false,

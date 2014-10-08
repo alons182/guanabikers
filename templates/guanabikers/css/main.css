@@ -75,15 +75,17 @@ ul{margin:0;padding:0}
 .bg-video .custom iframe{opacity:.3;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";filter:alpha(opacity=30);border:0;width:100%;height:100%}
 .header{height:2em;border-bottom:1px solid #d3d3d3;position:fixed;left:0;right:0;top:0;background:#000;z-index:10}
 .btn-menu{float:left;font-size:1.5em;padding:.1em .4em}
+.btn-home{text-transform:uppercase;font-size:3em;font-family:'bebas_neueregular',Arial,sans-serif;color:#d3d3d3;display:block;position:fixed;top:65px;left:30px;z-index:4;}
+.btn-home:hover{color:#bd4b01}
 .languajes{float:left;margin-left:10px;font-size:.8em}
-.reservation{float:right;margin-right:3em;margin-top:3px}
+.reservation{float:right;margin-right:1em;margin-top:3px}
 .btn-reservation{display:block;text-transform:uppercase;color:#d3d3d3;}
 .btn-reservation:hover{color:#bd4b01}
 .languajes-item{color:#fff;display:inline-block;padding:.2em;}
 .languajes-item:hover{color:#bd4b01}
 .logo{position:fixed;top:3.5em;left:2.5em}
 .wrapper{position:relative;min-height:100%;width:130%}
-.menu{position:fixed;background:#000;left:0;right:0;z-index:2;display:none;padding:40px 15px;}
+.menu{position:fixed;background:#000;left:0;right:0;z-index:2;display:none;padding:50px 15px;}
 .menu li a{color:#d3d3d3;font-size:3em;text-transform:uppercase;display:block;padding:.3em;font-family:'bebas_neueregular',Arial,sans-serif;}
 .menu li a:hover{color:#bd4b01}
 .main{position:fixed;right:0;top:0;width:100%;background:#fff;padding:3em 1em;height:97%;text-align:right;color:#000;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow-y:scroll;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
@@ -98,7 +100,7 @@ ul{margin:0;padding:0}
 .item-page ul{margin-left:3em;margin-bottom:1.5em}
 .tours,.gallery,.videos{text-align:center}
 .videos{width:100%;}
-.videos iframe{height:205px}
+.videos iframe{height:205px;border:0}
 .videos h1{text-align:center}
 .videos .expo{font-size:18px;position:relative;top:-30px}
 .tour,.gallery-item,.video{display:inline-block;vertical-align:top;width:230px;margin:.1em}
@@ -106,20 +108,21 @@ ul{margin:0;padding:0}
 .tour-link,.gallery-itemLink{display:block;}
 .tour-link img,.gallery-itemLink img{width:100%;max-height:156px}
 .patners{margin-top:40px;text-align:center}
-.footer{position:fixed;bottom:0;left:0;right:0;height:2em;font-size:13px;background:#000;color:#d3d3d3;}
+.footer{position:absolute;bottom:0;left:0;right:0;height:auto;font-size:13px;background:#000;color:#d3d3d3;text-align:center;}
 .footer p{margin:0}
-.copyright{float:left;margin-left:10px}
-.redes{float:right;margin-right:10px}
 .b2jcontainer{padding:0 !important;background:none !important;border:none !important;text-align:left;color:#000 !important;}
 .b2jcontainer h2{background:none;color:#bd4b01;font-size:4em;margin:0;padding:0;font-weight:bold;text-align:right}
 .b2jcontainer .btn-success{background:#bd4b01 !important}
 .b2j-contact-group-class{text-align:right}
 @media only screen and (min-width:  768px){.btn-menu{display:none}
+.reservation{margin-right:3em}
 .main{width:60.5%;padding:3em}
 .menu{bottom:4em;left:2.5em;right:auto;background:none;display:block}
 .video{width:350px;}
 .video iframe{height:205px}
 .footer{position:fixed;height:2em}
+.copyright{float:left;margin-left:10px}
+.redes{float:right;margin-right:10px}
 }@media only screen and (min-width:  1024px){.video{width:500px;}
 .video iframe{height:281px}
 }
