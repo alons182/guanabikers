@@ -89,8 +89,8 @@ ul{margin:0;padding:0}
 .menu li a{color:#d3d3d3;font-size:3em;text-transform:uppercase;display:block;padding:.3em;font-family:'bebas_neueregular',Arial,sans-serif;}
 .menu li a:hover{color:#bd4b01}
 .main{position:fixed;right:0;top:0;width:100%;background:#fff;padding:3em 1em;height:97%;text-align:right;color:#000;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow-y:scroll;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.page-home{margin-top:12em;}
-.page-home h1{font-size:4em}
+.page-home{margin-top:0;}
+.page-home h1{font-size:3em}
 .page-home h3{margin-top:-28px;margin-bottom:1em}
 .bgid-101 .main{background:none;color:#fff;overflow-y:hidden}
 .bgid-101 .bg{background-image:none}
@@ -118,11 +118,15 @@ ul{margin:0;padding:0}
 .reservation{margin-right:3em}
 .main{width:60.5%;padding:3em}
 .menu{bottom:4em;left:2.5em;right:auto;background:none;display:block}
+.btn-home{display:none}
 .video{width:350px;}
 .video iframe{height:205px}
 .footer{position:fixed;height:2em}
 .copyright{float:left;margin-left:10px}
 .redes{float:right;margin-right:10px}
+.page-home{margin-top:12em;}
+.page-home h1{font-size:4em}
+.page-home h3{margin-top:-28px;margin-bottom:1em}
 }@media only screen and (min-width:  1024px){.video{width:500px;}
 .video iframe{height:281px}
 }
