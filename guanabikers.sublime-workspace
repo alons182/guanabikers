@@ -688,11 +688,34 @@
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/responsive.styl",
+		"/C/xampp/htdocs/guanabikers/components/com_b2jcontact/b2jcontact.inc",
+		"/C/xampp/htdocs/guanabikers/media/jui/css/bootstrap-extended.css",
+		"/C/xampp/htdocs/guanabikers/administrator/components/com_b2jcontact/views/contact/tmpl/edit_security.php",
+		"/C/xampp/htdocs/guanabikers/templates/beez3/javascript/md_stylechanger.js",
+		"/D/Proyectos/AVOTZ/energy control/consulting_ficheros/protected/pages/modules/graficos/diario/demanda/getdata.php",
+		"/D/error.php",
+		"/D/Proyectos/AVOTZ/energy control/consulting_ficheros/protected/pages/modules/graficos/diario/demanda/administrar.php",
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/js/main.js",
+		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/responsive.styl",
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/index.php",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/main.styl",
 		"/D/Documents/dumps/guanabikers.sql",
+		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/main.styl",
+		"/C/xampp/htdocs/guanabikers/plugins/content/pagenavigation/pagenavigation.php",
+		"/C/xampp/htdocs/guanabikers/libraries/cms/error/page.php",
+		"/C/xampp/htdocs/guanabikers/layouts/joomla/edit/params.php",
+		"/C/xampp/htdocs/guanabikers/libraries/platform.php",
+		"/D/Videos/application.xml",
+		"/D/beach-session2014_files/widget0_markup.html",
+		"/D/beach-session2014.html",
+		"/D/application.xml",
+		"/D/RitmoDigital.html",
+		"/D/widget0_markup.html",
+		"/D/Gallery.html",
+		"/D/index.php",
+		"/D/Downloads/software_consulting.sql",
+		"/D/old_software_consulting.bak",
+		"/D/software_consulting.bak",
+		"/D/Proyectos/AVOTZ/energy control/application.xml",
 		"/C/xampp/htdocs/guanabikers/README.txt",
 		"/C/xampp/htdocs/guanabikers/components/com_contact/metadata.xml",
 		"/D/Documents/dumps/dbpos.sql",
@@ -792,30 +815,7 @@
 		"/D/Downloads/remote.php",
 		"/C/xampp/htdocs/puravida/templates/beez3/javascript/respond.js",
 		"/C/xampp/htdocs/puravida/media/jui/less/responsive.less",
-		"/C/xampp/htdocs/puravida/libraries/legacy/response/response.php",
-		"/D/Instaladores/KON B00t/KB00t/Cyber-Pirate.nfo",
-		"/C/xampp/htdocs/rentame/app/views/_layouts/default.blade.php",
-		"/C/xampp/htdocs/guanacasteviajes/index.html",
-		"/C/xampp/htdocs/puravida/templates/puravida/error.php",
-		"/C/xampp/htdocs/puravida/templates/protostar/component.php",
-		"/C/xampp/htdocs/puravida/templates/index.html",
-		"/D/Proyectos/AVOTZ/pura vida/puravida sitio viejo/language/templates/pages/teaching_0Testimonials.php",
-		"/D/Documents/dumps/puravida.sql",
-		"/C/xampp/htdocs/puravida/libraries/cms/html/icons.php",
-		"/C/xampp/htdocs/puravida/layouts/joomla/content/icons.php",
-		"/C/xampp/htdocs/puravida/components/com_contact/helpers/icon.php",
-		"/C/xampp/htdocs/puravida/administrator/manifests/libraries/idna_convert.xml",
-		"/C/xampp/htdocs/puravida/libraries/joomla/http/response.php",
-		"/C/xampp/htdocs/puravida/administrator/components/com_joomlaupdate/restore.php",
-		"/C/xampp/htdocs/puravida/templates/puravida/css/main.css",
-		"/C/xampp/htdocs/puravida/components/com_mailto/mailto.php",
-		"/C/xampp/htdocs/puravida/modules/mod_articles_archive/mod_articles_archive.php",
-		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/Default/Default (Windows).sublime-keymap",
-		"/D/Instaladores/Sublime Text Build 3059 x64/Data/Packages/User/Default (Windows).sublime-keymap",
-		"/D/get_posts.php",
-		"/C/Users/Alonso/Desktop/index.html",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
-		"/D/Instaladores/Sublime Text 2.0.2 x64/Data/Packages/User/Default (Windows).sublime-keymap"
+		"/C/xampp/htdocs/puravida/libraries/legacy/response/response.php"
 	],
 	"find":
 	{
@@ -833,6 +833,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Adri+Walter",
 			"Full Aventura",
 			"tours/full-aventura",
 			"=\"#",
@@ -959,8 +960,7 @@
 			"#logo",
 			"shape",
 			"Shape",
-			"shape",
-			"Niños"
+			"shape"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1062,6 +1062,10 @@
 		"selected_items":
 		[
 			[
+				"main.js",
+				"templates\\guanabikers\\js\\main.js"
+			],
+			[
 				"respo",
 				"templates\\guanabikers\\stylus\\responsive.styl"
 			],
@@ -1088,10 +1092,6 @@
 			[
 				"icon",
 				"templates\\puravida\\stylus\\icons.styl"
-			],
-			[
-				"main.js",
-				"templates\\puravida\\js\\main.js"
 			],
 			[
 				"resposi",
@@ -1445,6 +1445,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"bes",
+				"C:\\xampp\\htdocs\\best-quality\\bestquality.sublime-project"
+			],
 			[
 				"gu",
 				"C:\\xampp\\htdocs\\guanacasteviajes\\guanacasteviajes.sublime-project"
