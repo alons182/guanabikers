@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background"
+			],
+			[
 				"te",
 				"text-align"
 			],
@@ -510,10 +514,6 @@
 			[
 				"product",
 				"product-title-display"
-			],
-			[
-				"ic",
-				"icon-users"
 			]
 		]
 	},
@@ -523,9 +523,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 86.0,
+		"height": 268.0,
 		"selected_items":
 		[
+			[
+				"Snippet: sr",
+				"Snippet: script-jquery"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -659,7 +663,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 536.0
 	},
 	"console":
 	{
@@ -688,6 +692,14 @@
 	],
 	"file_history":
 	[
+		"/D/Videos/testvideo/dvs/dvsplayer.js",
+		"/D/Videos/testvideo/Video Fondo GB.html",
+		"/D/Videos/Video Fondo GB.html5-video/Video Fondo GB.html",
+		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/main.styl",
+		"/D/Videos/testvideo/index.html",
+		"/C/xampp/htdocs/guanabikers/.htaccess",
+		"/D/.htaccess",
+		"/D/Downloads/Compressed/video-js-4.9.0/video-js/video.js",
 		"/C/xampp/htdocs/guanabikers/components/com_b2jcontact/b2jcontact.inc",
 		"/C/xampp/htdocs/guanabikers/media/jui/css/bootstrap-extended.css",
 		"/C/xampp/htdocs/guanabikers/administrator/components/com_b2jcontact/views/contact/tmpl/edit_security.php",
@@ -699,7 +711,6 @@
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/responsive.styl",
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/index.php",
 		"/D/Documents/dumps/guanabikers.sql",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus/main.styl",
 		"/C/xampp/htdocs/guanabikers/plugins/content/pagenavigation/pagenavigation.php",
 		"/C/xampp/htdocs/guanabikers/libraries/cms/error/page.php",
 		"/C/xampp/htdocs/guanabikers/layouts/joomla/edit/params.php",
@@ -733,7 +744,6 @@
 		"/D/Downloads/Compressed/webfontkit-20141003-171512/stylesheet.css",
 		"/C/xampp/htdocs/guanabikers/templates/guanabikers/favicon.ico",
 		"/D/Documents/dumps/guanacasteviajes.sql",
-		"/C/xampp/htdocs/guanabikers/.htaccess",
 		"/C/xampp/htdocs/guanabikers/htaccess.txt",
 		"/D/Downloads/Compressed/wojodesign-simplecart-js-51a9a38/wojodesign-simplecart-js-51a9a38/test/index.html",
 		"/D/Documents/Programacion/Ejemplos Web/Html/test simple cart/index.html",
@@ -809,13 +819,7 @@
 		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content.php",
 		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content-single.php",
 		"/C/xampp/htdocs/blogavotz/wp-content/plugins/mechanic-post-hits-counter/wp-hitsmechanic.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/index.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/page.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content-page.php",
-		"/D/Downloads/remote.php",
-		"/C/xampp/htdocs/puravida/templates/beez3/javascript/respond.js",
-		"/C/xampp/htdocs/puravida/media/jui/less/responsive.less",
-		"/C/xampp/htdocs/puravida/libraries/legacy/response/response.php"
+		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/index.php"
 	],
 	"find":
 	{
