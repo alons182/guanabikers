@@ -684,14 +684,11 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/guanabikers",
-		"/C/xampp/htdocs/guanabikers/templates",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/js",
-		"/C/xampp/htdocs/guanabikers/templates/guanabikers/stylus"
+		"/D/xampp/htdocs/guanabikers"
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/guanabikers/.gitignore",
 		"/D/Videos/testvideo/dvs/dvsplayer.js",
 		"/D/Videos/testvideo/Video Fondo GB.html",
 		"/D/Videos/Video Fondo GB.html5-video/Video Fondo GB.html",
@@ -818,8 +815,7 @@
 		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/plugins/dropzone/dropzone.js",
 		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content.php",
 		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content-single.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/plugins/mechanic-post-hits-counter/wp-hitsmechanic.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/index.php"
+		"/C/xampp/htdocs/blogavotz/wp-content/plugins/mechanic-post-hits-counter/wp-hitsmechanic.php"
 	],
 	"find":
 	{
