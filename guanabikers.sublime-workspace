@@ -688,6 +688,20 @@
 	],
 	"file_history":
 	[
+		"/D/Downloads/TableCSSCode.css",
+		"/D/application.xml",
+		"/D/xampp/tmp/sess_17ajpn79f22tkff1ip1tl1g8a6",
+		"/D/xampp/tmp/why.tmp",
+		"/D/xampp/php/logs/php_error_log",
+		"/D/Proyectos/hosts",
+		"/D/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/D/xampp/htdocs/fashionfactory/Gulpfile.js",
+		"/D/Gulpfile.js",
+		"/D/xampp/php/php.ini",
+		"/D/xampp/Mail Sent to Local Server/2014-11-03 09.21.34,340.eml",
+		"/D/xampp/php/php.ini-development",
+		"/C/Users/Alonso/.ssh/id_rsa.pub",
+		"/D/xampp/htdocs/latest_laravel/vendor/laravel/framework/src/Illuminate/Log/LogServiceProvider.php",
 		"/D/xampp/htdocs/guanabikers/.gitignore",
 		"/D/Videos/testvideo/dvs/dvsplayer.js",
 		"/D/Videos/testvideo/Video Fondo GB.html",
@@ -715,7 +729,6 @@
 		"/D/Videos/application.xml",
 		"/D/beach-session2014_files/widget0_markup.html",
 		"/D/beach-session2014.html",
-		"/D/application.xml",
 		"/D/RitmoDigital.html",
 		"/D/widget0_markup.html",
 		"/D/Gallery.html",
@@ -802,20 +815,7 @@
 		"/C/xampp/htdocs/puravida/administrator/components/com_templates/templates.php",
 		"/C/xampp/htdocs/puravida/media/mod_languages/css/template.css",
 		"/C/xampp/htdocs/puravida/administrator/includes/toolbar.php",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/scripts/grid.js",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/scripts/app.js",
-		"/C/xampp/htdocs/energycontrol/protected/custom/cLogin.tpl",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/scripts/gallery.js",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/plugins/font-awesome/css/font-awesome.css",
-		"/C/xampp/htdocs/energycontrol/protected/pages/modules/header/admin/adminheader.page",
-		"/C/xampp/htdocs/energycontrol/protected/pages/modules/header/admin/addeditheader.page",
-		"/C/xampp/htdocs/energycontrol/protected/pages/modules/header/admin/addeditheader.php",
-		"/C/xampp/htdocs/energycontrol/protected/pages/modules/administradores/admin/administrar.page",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/plugins/dropzone/css/dropzone.css",
-		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/plugins/dropzone/dropzone.js",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/themes/avotz/content-single.php",
-		"/C/xampp/htdocs/blogavotz/wp-content/plugins/mechanic-post-hits-counter/wp-hitsmechanic.php"
+		"/C/xampp/htdocs/energycontrol/assets/theme_metronic/scripts/grid.js"
 	],
 	"find":
 	{
@@ -833,6 +833,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mail",
 			"Adri+Walter",
 			"Full Aventura",
 			"tours/full-aventura",
@@ -959,8 +960,7 @@
 			".border-",
 			"#logo",
 			"shape",
-			"Shape",
-			"shape"
+			"Shape"
 		],
 		"highlight": true,
 		"in_selection": false,
