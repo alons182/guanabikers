@@ -24,8 +24,9 @@ $itemid   = $app->input->getCmd('Itemid', '');
 <head>
 	<title><?php echo $this->title; ?> <?php echo $this->error->getMessage();?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+     <jdoc:include type="head" />
      <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/main.css" type="text/css" />
+     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/main.css" type="text/css" />
      <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/colorbox.css" type="text/css" />
 </head>
 <body class="<?php echo ($itemid ? ' bgid-' . $itemid : '')?>">
