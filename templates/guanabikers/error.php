@@ -17,14 +17,16 @@ $renderer = $doc->loadRenderer('module');
 
 $itemid   = $app->input->getCmd('Itemid', '');
 
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" >
 <head>
 	<title><?php echo $this->title; ?> <?php echo $this->error->getMessage();?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/main.css" type="text/css" />
-
+     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/colorbox.css" type="text/css" />
 </head>
 <body class="<?php echo ($itemid ? ' bgid-' . $itemid : '')?>">
         <div class="header-top">
@@ -101,23 +103,13 @@ $itemid   = $app->input->getCmd('Itemid', '');
                 </div>
             
         </section>
-        <footer>
-            <em class="tear"></em>
-            <div class="inner" style="text-align: center;">
-               
-                <div class="column column-logo">
-                     <a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/img/logo.png" alt="Pura vida Teaching"/></a>
-                     <div class="redes">
-                        <a href="#"><i class="icon icon-facebook"></i></a>
-                        <a href="#"><i class="icon icon-twitter"></i></a>
-                        <a href="#"><i class="icon icon-googleplus"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+         <footer class="footer">
+        <div class="copyright"><p>Guanabikers © 2014</p></div>
+        <div class="redes"><a href="http://www.facebook.com/Guanabikers" target="_blank">Facebook</a> • <a href="http://twitter.com/#!/Guanabikers" target="_blank">Twitter</a> • <a href="http://youtube.com/user/Guanabikers/feed" target="_blank">Youtube</a> • <a href="http://www.tripadvisor.com.mx/Attraction_Review-g309240-d3179993-Reviews-Guanabikers_Private_Day_Tours-Liberia_Province_of_Guanacaste.html" target="_blank">Trip Advisor</a> • <a href="http://www.magcloud.com/browse/issue/389771" target="_blank">XXC Magazine</a>  </div>
+    </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.colorbox-min.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
 
     </body>
